@@ -57,8 +57,8 @@ margin-left:10px;
 }
 
 .circle_arrows{ clear:both; margin:0 auto; height:auto; margin-left:50%; margin-top:-20px;}
-.circle_uparrow{ margin-top:-20px;}
-.circle_downarrow{ margin-left:20px; margin-bottom:-20px;}
+.circle_uparrow{ margin-top:-20px; display:none;}
+.circle_downarrow{ margin-left:20px; margin-bottom:-20px; display:none;}
 .circle_uparrow a{
 	width:40px; 
 	height:20px;
@@ -137,7 +137,7 @@ margin-left:10px;
 
 /* Home for  sequencesliders starts */
 #home_sequence{
-	background:url(../images/patterns/home_bg.png) 50% 0 repeat fixed;
+	background:url(../images/sequence_slides_jjb/jjb_bg.png) 50% 0 repeat fixed;
 	margin: 0 auto;
 	padding: 0;
 	overflow:hidden;
@@ -336,7 +336,7 @@ ul.arrowunderline li#selected { /* use CSS generated content to add arrow to the
 .service_circle2{ background-image:url(../images/service_cir2.png); width:182px; height:486px; margin:-100px 0px 0px 20px; }
 .service_circle3{ background-image:url(../images/service_grey.png); width:102px; height:401px; margin:-40px 0px 0px 50px; }
 .service_circle4{ background-image:url(../images/yellow_service.png); width:119px; height:419px; margin:130px 0px 0px 60px;}
-.service_circle5{ background-image:url(../images/service_yellow.png); width:103px; height:404px; margin:40px 0px 0px 156px; }
+.service_circle5{ background-image:url(../images/service_yellow.png); width:233px; height:280px; margin:40px 0px 0px 156px; }
 .service_shade{
 	clear:both;
 	background-image:url(../images/service_shade.png);
@@ -459,15 +459,14 @@ background-color:#EAEAEA;
 
 /* About starts */
 #about{
-	/*background:url(../images/patterns/about_bg.png) 50% 0 repeat fixed;*/
 	background-position: left top;
-	width:100%;
-	height:auto;
+	width: 100%;
+	height: auto;
 	margin: 0 auto;
 	padding: 0;
-	overflow:hidden;
-	margin-top:-20px;
-	padding:40px 0px 0px 0px;
+	overflow: hidden;
+	margin-top: -48px;
+	padding: 0px 0px 0px 0px;
 }
 #about h2 span{ width:83.3%;}
 .about_left{ width:55%; height:auto; float:left;}
@@ -504,7 +503,7 @@ background-color:#EAEAEA;
 
 /* Features starts */
 #features { clear:both;} 
-.features_top{padding-top:76px; padding-bottom:90px;}
+.features_top{padding-top:0px; padding-bottom:90px;}
 #features ul { list-style-type:none; margin:0; padding:0; position:relative; z-index:999999;}
 #features li {
 	float:left;

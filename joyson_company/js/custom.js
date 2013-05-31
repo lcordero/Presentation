@@ -156,13 +156,13 @@ $('#right_nav').localScroll({offset:-50,duration:1500});
 	// for services section
 	$('.service_circle1').parallax("50%",1.2);	
 	$('.service_circle2').parallax("50%",2.3);	
-	$('.service_circle3').parallax("50%",0.5);	
-	$('.service_circle4').parallax("50%",0.1);	
+	$('.service_circle3').parallax("50%",-0.7);	
+	$('.service_circle4').parallax("50%",0.00001);	
 	$('.service_circle5').parallax("50%",0.5);	
 	$('.service_circle6').parallax("50%",0.4);	
 	$('.service_circle7').parallax("50%",0.9);	
 
-	$('#serv_desc').parallaxTest(50,0.5);
+	$('#serv_desc').parallaxTest(50,0.25);
 	$('#serv_desc1').parallaxTest(50,0.1);
 	// $('#here1').parallax("50%",0.5);
 	// $('#here2').parallax("50%",0.9);

@@ -137,7 +137,7 @@ margin-left:10px;
 
 /* Home for  sequencesliders starts */
 #home_sequence{
-	background:url(../images/patterns/home_bg.png) 50% 0 repeat fixed;
+	background:url(../images/sequence_slides_jjb/jjb_bg.png) 50% 0 repeat fixed;
 	margin: 0 auto;
 	padding: 0;
 	overflow:hidden;
@@ -314,7 +314,7 @@ ul.arrowunderline li#selected { /* use CSS generated content to add arrow to the
 .service_circle2{ background-image:url(../images/service_cir2.png); width:182px; height:486px; margin:-100px 0px 0px 20px; }
 .service_circle3{ background-image:url(../images/service_grey.png); width:102px; height:401px; margin:-40px 0px 0px 50px; }
 .service_circle4{ background-image:url(../images/yellow_service.png); width:119px; height:419px; margin:130px 0px 0px 60px;}
-.service_circle5{ background-image:url(../images/service_yellow.png); width:103px; height:404px; margin:40px 0px 0px 156px; }
+.service_circle5{ background-image:url(../images/service_yellow.png); width: 233px; height: 48px; margin:40px 0px 0px 156px; }
 .service_shade{
 	clear:both;
 	background-image:url(../images/service_shade.png);

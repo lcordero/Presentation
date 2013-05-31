@@ -1,8 +1,8 @@
 /* CSS Document */
 #bg{
-	background: url(../images/sequence_slides_jjb/jjb_bg1.png) repeat;
+	/*background: url(../images/sequence_slides_jjb/jjb_bg.png) repeat;*/
 	margin:0px auto;
-	height:650px;
+	height: 1017px;
 	background-size: 100%;
 }
 #sequence {
@@ -118,7 +118,7 @@
 	transition: all 0.6s ease-in;
 }
 .slider_img1.animate-in {
-	left:50%;
+	left:53%;
 	top:10%;
     filter: alpha(opacity=100); 
     opacity: 1;
